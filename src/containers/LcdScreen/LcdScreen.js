@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { translate } from "react-i18next";
 import Slider from "react-slick";
 import HomeSlide from "./HomeSlide/HomeSlide";
+import CategorySlide from "./CategorySlide/CategorySlide";
 import ImageSlide from "./ImageSlide/ImageSlide";
 
 import * as adActions from "../../store/ads/actions";
@@ -52,6 +53,9 @@ class LcdScreen extends Component {
     return (
       <div className="LcdScreen">
         <Slider {...settings}>
+          <CategorySlide category="cycling" />
+          <CategorySlide category="mountainbike" />
+          <CategorySlide category="running" />
           <HomeSlide /> {ads.map(ad => <ImageSlide url={ad} key={ad} />)}
         </Slider>
       </div>

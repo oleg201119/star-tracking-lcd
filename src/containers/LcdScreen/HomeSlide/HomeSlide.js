@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { bounce, fadeIn } from "react-animations";
+import { bounce } from "react-animations";
 import Radium, { StyleRoot } from "radium";
 
 import Images from "../../../resource/Images";
