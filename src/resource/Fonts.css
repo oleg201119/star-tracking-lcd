@@ -1,0 +1,3 @@
+@font-face {
+  font-family: "MaisonNeue";
+  src: url("/fonts/MaisonNeue-Light.woff2") format("woff2"), url("/fonts/MaisonNeue-Light.woff") format("woff"), url("/fonts/MaisonNeue-Light.ttf") format("truetype"); }
